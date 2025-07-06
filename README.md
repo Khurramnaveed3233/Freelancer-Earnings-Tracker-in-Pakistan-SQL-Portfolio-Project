@@ -6,26 +6,28 @@
 
 ## 🎯 Objective
 
-To build a robust SQL data model that captures the earnings, skillsets, client ratings, and monthly growth trends of Pakistani freelancers and enables actionable insights through analytical queries.
-
+To build a robust SQL-based data model that tracks earnings, skills, reviews, and client details of freelancers in Pakistan. The goal is to uncover key trends and deliver actionable insights that can help freelancers grow their income and performance on platforms like **Upwork**, **Fiverr**, and **Freelancer**.
 ---
 
 ## 💼 My Goal is 
 
-To empower freelancers in Pakistan to:
+To empower freelancers in Pakistan by:
 
-- Monitor their earnings and performance over time
-- Identify high-paying platforms, skills, and categories
-- Discover trends and benchmarks to increase income and productivity
-- Make informed business decisions using data
+- Monitoring their earnings and performance trends  
+- Identifying the most profitable platforms and skillsets  
+- Providing data-backed insights for decision-making  
+- Enhancing productivity and income through analytics  
+
 
 ---
 
-## 📂 Project Structure
+## 📂 Project Architecture
 
-- **Tools Used:** SQL Server, Excel, Power BI (optional), GitHub
-- **Tables Created:** 8 normalized tables with relationships
-- **Sample Data:** 10 records per table for prototyping
+
+- **Tools Used:** SQL Server, Excel, Power BI (optional), GitHub  
+- **Schema:** 8 normalized, interrelated tables  
+- **Sample Data:** 10 records per table (can be scaled to 200+ for full analysis)  
+
 
 ### 🗃️ Database Tables
 
@@ -95,12 +97,14 @@ Key Relationships:
 
 ## 📌 Key Insights
 
-- 🔹 **Top 20%** of freelancers earn **60%+** of total revenue  
-- 🔹 **SEO**, **Digital Marketing**, and **Web Development** are high-paying categories  
-- 🔹 **Upwork** offers the highest hourly return; **Fiverr** is beginner-friendly  
-- 🔹 **Freelancers with **diverse skills** earn significantly more  
-- 🔹 **Faster client response times** improve overall review scores  
-- 🔹 **Seasonal trends** impact earnings (e.g., Q1 and Q4 growth periods)
+
+- 🔹 Top 20% of freelancers contribute to over 60% of the total revenue  
+- 🔹 SEO, Digital Marketing, and Web Development are high-paying skill areas  
+- 🔹 Upwork yields the highest hourly earnings, while Fiverr is preferred by beginners  
+- 🔹 Freelancers with **diverse skills** consistently earn more  
+- 🔹 Faster response times correlate with better review scores  
+- 🔹 Earnings show seasonal trends (notably in Q1 and Q4)
+
 
 ## Recommendations for Freelancers
 
@@ -131,35 +135,42 @@ Based on the data analysis conducted in this project, here are some practical, d
 
 > ✨ Freelancers who take a data-driven approach are better equipped to grow consistently, adapt to platform trends, and secure high-value clients.
 
+## 📏 Key Metrics Tracked
+
+- **Earnings per Hour**  
+- **Total Earnings by Platform**  
+- **Skill Count vs Average Earnings**  
+- **Client Count by Country**  
+- **Average Response Time by Freelancer**  
+- **Monthly Earnings Growth (%)**
+
 ---
 
 ## 🧠 Skills Demonstrated
 
-- SQL Joins, CTEs, Window Functions  
-- Data Modeling & Normalization  
-- Analytical Thinking with Business Context  
-- Complex Aggregations and Performance Queries  
-- Real-world Scenario-Based Reporting  
+- Advanced SQL (Joins, Aggregations, Subqueries, CTEs, Window Functions)  
+- Schema Design and Relational Data Modeling  
+- Business Analysis and KPI Development  
+- Data Cleaning Concepts (Outlier awareness, null handling)  
+- Insight Extraction for Stakeholder Reporting
 
 ---
 
 ## 🎓 What I Learned
 
-- Translated business questions into efficient SQL logic  
-- Built a normalized schema for a real-world dataset  
-- Tracked KPIs using time series and window functions  
-- Gained confidence solving freelance market problems using SQL  
+- How to break down real-world business problems into efficient SQL logic  
+- Built a normalized schema and filled it with realistic sample data  
+- Developed analytics for income trends, platform ROI, and category strength  
+- Learned to present insights like a business dashboard without needing BI tools
 
 ---
 
 ## 🚀 Next Steps
 
-- 📊 Build a Power BI dashboard using SQL outputs  
-- 🔁 Automate reporting via SQL Agent or Python scripts  
-- 🌐 Extend the project using real freelancing platform data  
-- 🧩 Integrate with a complete BI pipeline for advanced analysis  
-
----
+- 📊 Integrate this project into a Power BI dashboard  
+- 🔁 Automate monthly data refresh using SQL Agent or Python scripts  
+- 🌍 Scale with actual freelancing platform data (via API or web scraping)  
+- 📦 Turn into a complete BI solution with an ETL pipeline and reporting layer
 
 ## 🙌 About the Author
 
