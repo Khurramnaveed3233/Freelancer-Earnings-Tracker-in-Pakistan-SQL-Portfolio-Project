@@ -116,9 +116,9 @@ Key Relationships:
 **👨‍💻 Khurram Naveed**  
 *Aspiring Data Analyst | SQL Developer | Power BI Learner*
 
-- 🌐 [LinkedIn](#)  
-- 💻 [GitHub](#)  
-- 📺 [YouTube](#)
+- 🌐 [LinkedIn](#)  https://www.linkedin.com/in/khurram-naveed-0083851aa/
+- 💻 [GitHub](#)  https://github.com/Khurramnaveed3233/Portfolio
+
 
 ---
 
