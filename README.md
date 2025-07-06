@@ -98,12 +98,12 @@ Key Relationships:
 ## 📌 Key Insights
 
 
-- 🔹 Top 20% of freelancers contribute to over 60% of the total revenue  
-- 🔹 SEO, Digital Marketing, and Web Development are high-paying skill areas  
-- 🔹 Upwork yields the highest hourly earnings, while Fiverr is preferred by beginners  
-- 🔹 Freelancers with **diverse skills** consistently earn more  
-- 🔹 Faster response times correlate with better review scores  
-- 🔹 Earnings show seasonal trends (notably in Q1 and Q4)
+-  Top 20% of freelancers contribute to over 60% of the total revenue  
+-  SEO, Digital Marketing, and Web Development are high-paying skill areas  
+-  Upwork yields the highest hourly earnings, while Fiverr is preferred by beginners  
+-  Freelancers with **diverse skills** consistently earn more  
+-  Faster response times correlate with better review scores  
+-  Earnings show seasonal trends (notably in Q1 and Q4)
 
 
 ## Recommendations for Freelancers
