@@ -72,6 +72,27 @@ Key Relationships:
 
 ## 🧠 Example Query Snapshots : 
 
+![1](https://github.com/user-attachments/assets/67faa2aa-8ce9-430d-8893-02022daeea13)
+
+![2](https://github.com/user-attachments/assets/392fafa0-fbe0-47c5-9635-216c5cb4ef2a)
+
+![3](https://github.com/user-attachments/assets/4b290667-296f-4996-919b-1d09a35043bc)
+
+![4](https://github.com/user-attachments/assets/37f476e4-cfd5-4257-95c4-8efcccac97ef)
+
+![5](https://github.com/user-attachments/assets/11e1dc70-02ee-41c3-bc47-fa15a9a24301)
+
+![6](https://github.com/user-attachments/assets/caa43c57-a9de-431d-893a-0ebca44f1be7)
+
+![7](https://github.com/user-attachments/assets/025eadae-0bcc-447f-8053-d80ef6f81ae1)
+
+![8](https://github.com/user-attachments/assets/22602864-bd47-44f5-9ba5-a15c30f35900)
+
+![9](https://github.com/user-attachments/assets/8de78177-cd39-45d5-b2a3-6c08baac6b4e)
+
+![10](https://github.com/user-attachments/assets/51b97074-f0c4-43a8-bf7e-77bb30c7b669)
+
+
 ## 📌 Key Insights
 
 - 🔹 **Top 20%** of freelancers earn **60%+** of total revenue  
