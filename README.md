@@ -181,7 +181,7 @@ ORDER BY total_earning DESC;
 *Aspiring Data Analyst | SQL Developer | Power BI Enthusiast*
 
 - 🌐 [LinkedIn](https://www.linkedin.com/in/khurram-naveed-0083851aa/)
-- 💻 [GitHub](https://github.com/Khurramnaveed3233/Portfolio)
+- 💻 [https://github.com/Khurramnaveed3233/Portfolio)
 
 ---
 
