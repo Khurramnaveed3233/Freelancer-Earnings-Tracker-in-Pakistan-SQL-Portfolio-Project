@@ -89,29 +89,6 @@ This project addresses these real-world challenges using a relational SQL databa
 
 ![10](https://github.com/user-attachments/assets/51b97074-f0c4-43a8-bf7e-77bb30c7b669)
 
-## 💡 Impact of the Project
-
-By answering the above questions, this project helps freelancers:
-
-- Focus on high-paying skills and platforms  
-- Optimize their client response strategies  
-- Understand seasonal income trends  
-- Compare performance metrics  
-- Make better strategic decisions using real data
-
-
----
-
-## 🧠 Sample SQL Queries Used
-
-```sql
--- Top 5 highest earning freelancers
-SELECT TOP 5 f.freelancer_name, SUM(p.earning) AS total_earning
-FROM freelancers f
-JOIN projects p ON f.freelancer_id = p.freelancer_id
-GROUP BY f.freelancer_name
-ORDER BY total_earning DESC;
-
 ## 📌 Key Insights
 
 - **Top 20% freelancers** generate over **60% of total revenue**
@@ -120,58 +97,6 @@ ORDER BY total_earning DESC;
 - Freelancers with **more skills consistently earn more**
 - **Faster response time** improves client ratings
 - **Seasonal trends** observed: Q1 & Q4 show income spikes
-
----
-
-## 💬 Recommendations for Freelancers
-
-- **Focus on high-income skills:** SEO, Web Dev, etc.
-- **Use platforms wisely:** Fiverr for beginners, Upwork for scaling
-- **Be responsive:** Faster replies = better ratings and client retention
-- **Upskill & diversify:** More skills → higher earning potential
-- **Track monthly trends:** Adjust your effort with high-earning periods
-- **Explore international clients:** USA, UK, UAE offer higher budgets
-- **Treat freelancing like a business:** Let data drive your decisions
-
----
-
-## 🧠 Skills Demonstrated
-
-- ✅ Advanced SQL (Joins, Aggregations, CTEs, Window Functions)
-- ✅ Schema Design & Database Normalization
-- ✅ Data Cleaning & Handling Missing Values
-- ✅ Analytical Thinking & Insight Extraction
-- ✅ Business KPI Development
-- ✅ Stakeholder-Ready Project Documentation
-
----
-
-## 🛠️ Challenges Faced
-
-- Designing a normalized schema with realistic entity relationships
-- Creating meaningful KPIs from raw and fragmented data
-- Handling nulls, outliers, and inconsistencies in earnings data
-- Writing performant SQL queries for complex analysis
-- Structuring results for real-world usability and storytelling
-
----
-
-## 🔮 What I Learned
-
-- How to **translate business problems** into efficient SQL logic
-- Best practices in **relational data modeling** and schema design
-- Connecting **data insights to business decisions**
-- Presenting analysis clearly **without BI tools**
-- Thinking like an **analyst**, not just a coder
-
----
-
-## 🚀 Next Steps
-
-- 📊 Build a **Power BI Dashboard** on top of this SQL project  
-- 🔁 **Automate data refresh** using SQL Server Agent or Python  
-- 🌍 Use **real freelancing data** via API/web scraping  
-- 📦 Build a full **BI pipeline** (ETL → SQL DB → Dashboard → Reports)
 
 ---
 
