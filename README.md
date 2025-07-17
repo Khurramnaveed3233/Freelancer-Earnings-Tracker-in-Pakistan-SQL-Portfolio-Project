@@ -7,29 +7,36 @@
 ## 🎯 Objective
 
 To build a robust SQL-based data model that tracks earnings, skills, reviews, and client details of freelancers in Pakistan. The goal is to uncover key trends and deliver actionable insights that can help freelancers grow their income and performance on platforms like **Upwork**, **Fiverr**, and **Freelancer**.
----
-
-## 💼 My Goal is 
-
-To empower freelancers in Pakistan by:
-
-- Monitoring their earnings and performance trends  
-- Identifying the most profitable platforms and skillsets  
-- Providing data-backed insights for decision-making  
-- Enhancing productivity and income through analytics  
-
 
 ---
+## 🌍 About the Project
 
-## 📂 Project Architecture
+Freelancing is becoming a major source of income in Pakistan, especially on global platforms like Fiverr, Upwork, and Freelancer.com. However, many freelancers don't track their earnings, client interactions, and performance trends properly.
 
+This project aims to solve that gap by developing a structured SQL-based solution that enables Pakistani freelancers to monitor, evaluate, and optimize their freelancing journey.
 
-- **Tools Used:** SQL Server, Excel, Power BI (optional), GitHub  
-- **Schema:** 8 normalized, interrelated tables  
-- **Sample Data:** 10 records per table (can be scaled to 200+ for full analysis)  
+## 🧩 Problem Statement
 
+Freelancers often struggle with:
 
-### 🗃️ Database Tables
+- Identifying which platforms and skills earn the most
+- Tracking monthly income trends
+- Managing client relationships
+- Responding quickly to feedback
+- Making data-driven decisions
+
+This project addresses these real-world challenges using a relational SQL database and analytical queries.
+
+## 🛠️ Tools & Technologies Used
+
+- **SQL Server** for data modeling and queries  
+- **Excel** (for initial data input)  
+- **Power BI (optional)** for dashboards  
+- **GitHub** for version control and sharing  
+
+## 🗃️ Database Schema (ERD)
+
+> 📌 Schema includes 8 normalized, interrelated tables.
 
 | Table             | Description                               |
 |------------------|-------------------------------------------|
@@ -42,22 +49,10 @@ To empower freelancers in Pakistan by:
 | category          | Category types and popularity             |
 | clients           | Client country and industry details       |
 
----
 
-## 🧩 ERD Diagram
+<img width="835" height="612" alt="Freelancer Earnings Tracker in Pakistan_Schema" src="https://github.com/user-attachments/assets/294c89a9-995b-40b0-ab62-be8b00d59e02" />
 
-![sch](https://github.com/user-attachments/assets/a4936d12-2577-47fe-b368-4af1eaada125)
-
-
-Key Relationships:
-
-- `freelancers` → `projects`, `skills`, `earnings_summary`
-- `projects` → `reviews`
-- `projects` → `clients`, `category`
-
----
-
-## 📈 Sample Business Questions Answered
+## ❓ Business Questions Solved with SQL
 
 1. Who are the top-earning freelancers?
 2. Which freelancing categories are the most profitable?
@@ -68,7 +63,7 @@ Key Relationships:
 7. How do beginner and expert freelancers differ in performance?
 8. What is the client distribution by country and industry?
 9. Which categories are most popular vs most profitable?
-10. Use of SQL Window Functions to analyze historical trends
+10. How to use SQL Window Functions for historical trends?
 
 ---
 
@@ -94,100 +89,104 @@ Key Relationships:
 
 ![10](https://github.com/user-attachments/assets/51b97074-f0c4-43a8-bf7e-77bb30c7b669)
 
+## 💡 Impact of the Project
 
-## 📌 Key Insights
+By answering the above questions, this project helps freelancers:
 
+- Focus on high-paying skills and platforms  
+- Optimize their client response strategies  
+- Understand seasonal income trends  
+- Compare performance metrics  
+- Make better strategic decisions using real data
 
--  Top 20% of freelancers contribute to over 60% of the total revenue  
--  SEO, Digital Marketing, and Web Development are high-paying skill areas  
--  Upwork yields the highest hourly earnings, while Fiverr is preferred by beginners  
--  Freelancers with **diverse skills** consistently earn more  
--  Faster response times correlate with better review scores  
--  Earnings show seasonal trends (notably in Q1 and Q4)
-
-
-## Recommendations for Freelancers
-
-Based on the data analysis conducted in this project, here are some practical, data-backed recommendations for freelancers in Pakistan:
-
-- **Focus on High-Paying Skills:**  
-  Skills like SEO, Digital Marketing, and Web Development consistently lead to higher earnings. Consider upskilling in these areas.
-
-- **Improve Response Times:**  
-  Freelancers with faster response times tend to get better reviews and more repeat clients. Use mobile apps or browser alerts to stay responsive.
-
-- **Choose Platforms Strategically:**  
-  Upwork shows higher hourly returns, making it ideal for experienced professionals. Fiverr is better for building a portfolio if you're just starting out.
-
-- **Diversify Your Skillset:**  
-  Data shows that freelancers with multiple skills earn more. Consider combining complementary skills (e.g., graphic design + video editing).
-
-- **Track Your Monthly Growth:**  
-  Monitor your earnings regularly. Look for patterns in your income to plan better and scale your efforts during high-earning months.
-
-- **Explore International Clients:**  
-  Clients from tech and finance industries in countries like the USA, UK, and UAE offer higher budgets. Focus on optimizing your profile for these markets.
-
-- **Treat Freelancing Like a Business:**  
-  Use data to guide decisions — from pricing and skills to platforms and response strategies. Your freelance work deserves the same structure as a full-time job.
 
 ---
 
-> ✨ Freelancers who take a data-driven approach are better equipped to grow consistently, adapt to platform trends, and secure high-value clients.
+## 🧠 Sample SQL Queries Used
 
-## 📏 Key Metrics Tracked
+```sql
+-- Top 5 highest earning freelancers
+SELECT TOP 5 f.freelancer_name, SUM(p.earning) AS total_earning
+FROM freelancers f
+JOIN projects p ON f.freelancer_id = p.freelancer_id
+GROUP BY f.freelancer_name
+ORDER BY total_earning DESC;
 
-- **Earnings per Hour**  
-- **Total Earnings by Platform**  
-- **Skill Count vs Average Earnings**  
-- **Client Count by Country**  
-- **Average Response Time by Freelancer**  
-- **Monthly Earnings Growth (%)**
+## 📌 Key Insights
+
+- **Top 20% freelancers** generate over **60% of total revenue**
+- **High-paying skills:** SEO, Digital Marketing, Web Development
+- **Upwork** offers the highest hourly rates; **Fiverr** is better for beginners
+- Freelancers with **more skills consistently earn more**
+- **Faster response time** improves client ratings
+- **Seasonal trends** observed: Q1 & Q4 show income spikes
+
+---
+
+## 💬 Recommendations for Freelancers
+
+- **Focus on high-income skills:** SEO, Web Dev, etc.
+- **Use platforms wisely:** Fiverr for beginners, Upwork for scaling
+- **Be responsive:** Faster replies = better ratings and client retention
+- **Upskill & diversify:** More skills → higher earning potential
+- **Track monthly trends:** Adjust your effort with high-earning periods
+- **Explore international clients:** USA, UK, UAE offer higher budgets
+- **Treat freelancing like a business:** Let data drive your decisions
 
 ---
 
 ## 🧠 Skills Demonstrated
 
-- Advanced SQL (Joins, Aggregations, Subqueries, CTEs, Window Functions)  
-- Schema Design and Relational Data Modeling  
-- Business Analysis and KPI Development  
-- Data Cleaning Concepts (Outlier awareness, null handling)  
-- Insight Extraction for Stakeholder Reporting
+- ✅ Advanced SQL (Joins, Aggregations, CTEs, Window Functions)
+- ✅ Schema Design & Database Normalization
+- ✅ Data Cleaning & Handling Missing Values
+- ✅ Analytical Thinking & Insight Extraction
+- ✅ Business KPI Development
+- ✅ Stakeholder-Ready Project Documentation
 
 ---
 
-## 🎓 What I Learned
+## 🛠️ Challenges Faced
 
-- How to break down real-world business problems into efficient SQL logic  
-- Built a normalized schema and filled it with realistic sample data  
-- Developed analytics for income trends, platform ROI, and category strength  
-- Learned to present insights like a business dashboard without needing BI tools
+- Designing a normalized schema with realistic entity relationships
+- Creating meaningful KPIs from raw and fragmented data
+- Handling nulls, outliers, and inconsistencies in earnings data
+- Writing performant SQL queries for complex analysis
+- Structuring results for real-world usability and storytelling
+
+---
+
+## 🔮 What I Learned
+
+- How to **translate business problems** into efficient SQL logic
+- Best practices in **relational data modeling** and schema design
+- Connecting **data insights to business decisions**
+- Presenting analysis clearly **without BI tools**
+- Thinking like an **analyst**, not just a coder
 
 ---
 
 ## 🚀 Next Steps
 
-- 📊 Integrate this project into a Power BI dashboard  
-- 🔁 Automate monthly data refresh using SQL Agent or Python scripts  
-- 🌍 Scale with actual freelancing platform data (via API or web scraping)  
-- 📦 Turn into a complete BI solution with an ETL pipeline and reporting layer
+- 📊 Build a **Power BI Dashboard** on top of this SQL project  
+- 🔁 **Automate data refresh** using SQL Server Agent or Python  
+- 🌍 Use **real freelancing data** via API/web scraping  
+- 📦 Build a full **BI pipeline** (ETL → SQL DB → Dashboard → Reports)
 
-## 🙌 About the Author
+---
+
+## 🙌 About Me
 
 **👨‍💻 Khurram Naveed**  
-*Aspiring Data Analyst | SQL Developer | Power BI Learner*
+*Aspiring Data Analyst | SQL Developer | Power BI Enthusiast*
 
 - 🌐 [LinkedIn](https://www.linkedin.com/in/khurram-naveed-0083851aa/)
 - 💻 [GitHub](https://github.com/Khurramnaveed3233/Portfolio)
 
 ---
 
----
-
-> ⭐ If you found this project helpful, give it a star, fork it, or share your feedback.  
-> **Let’s grow the freelance economy with the power of data!**
-
-
+> ⭐ If this project inspired or helped you, give it a **star** on GitHub or share your feedback.  
+> Let’s grow the **freelance economy** with data-powered decisions!
 
 
 
