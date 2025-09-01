@@ -27,7 +27,7 @@ Freelancers often struggle with:
 
 This project addresses these real-world challenges using a relational SQL database and analytical queries.
 
-## 🛠Tools & Technologies Used
+## Tools & Technologies Used
 
 - **SQL Server** for data modeling and queries  
 - **Excel** (for initial data input)  
