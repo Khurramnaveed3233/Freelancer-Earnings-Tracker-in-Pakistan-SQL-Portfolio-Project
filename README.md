@@ -4,18 +4,18 @@
 
 ---
 
-## 🎯 Objective
+## Objective
 
 To build a robust SQL-based data model that tracks earnings, skills, reviews, and client details of freelancers in Pakistan. The goal is to uncover key trends and deliver actionable insights that can help freelancers grow their income and performance on platforms like **Upwork**, **Fiverr**, and **Freelancer**.
 
 ---
-## 🌍 About the Project
+## About the Project
 
 Freelancing is becoming a major source of income in Pakistan, especially on global platforms like Fiverr, Upwork, and Freelancer.com. However, many freelancers don't track their earnings, client interactions, and performance trends properly.
 
 This project aims to solve that gap by developing a structured SQL-based solution that enables Pakistani freelancers to monitor, evaluate, and optimize their freelancing journey.
 
-## 🧩 Problem Statement
+## Problem Statement
 
 Freelancers often struggle with:
 
@@ -27,16 +27,16 @@ Freelancers often struggle with:
 
 This project addresses these real-world challenges using a relational SQL database and analytical queries.
 
-## 🛠️ Tools & Technologies Used
+## 🛠Tools & Technologies Used
 
 - **SQL Server** for data modeling and queries  
 - **Excel** (for initial data input)  
 - **Power BI (optional)** for dashboards  
 - **GitHub** for version control and sharing  
 
-## 🗃️ Database Schema (ERD)
+##  Database Schema (ERD)
 
-> 📌 Schema includes 8 normalized, interrelated tables.
+>  Schema includes 8 normalized, interrelated tables.
 
 | Table             | Description                               |
 |------------------|-------------------------------------------|
@@ -52,7 +52,7 @@ This project addresses these real-world challenges using a relational SQL databa
 
 <img width="835" height="612" alt="Freelancer Earnings Tracker in Pakistan_Schema" src="https://github.com/user-attachments/assets/294c89a9-995b-40b0-ab62-be8b00d59e02" />
 
-## ❓ Business Questions Solved with SQL
+##  Business Questions Solved with SQL
 
 1. Who are the top-earning freelancers?
 2. Which freelancing categories are the most profitable?
@@ -67,7 +67,7 @@ This project addresses these real-world challenges using a relational SQL databa
 
 ---
 
-## 🧠 Example Query Snapshots : 
+##  Example Query Snapshots : 
 
 ![1](https://github.com/user-attachments/assets/67faa2aa-8ce9-430d-8893-02022daeea13)
 
@@ -89,7 +89,7 @@ This project addresses these real-world challenges using a relational SQL databa
 
 ![10](https://github.com/user-attachments/assets/51b97074-f0c4-43a8-bf7e-77bb30c7b669)
 
-## 📌 Key Insights
+##  Key Insights
 
 - **Top 20% freelancers** generate over **60% of total revenue**
 - **High-paying skills:** SEO, Digital Marketing, Web Development
@@ -99,7 +99,7 @@ This project addresses these real-world challenges using a relational SQL databa
 - **Seasonal trends** observed: Q1 & Q4 show income spikes
 
 ---
-## 💬 Recommendations for Freelancers
+##  Recommendations for Freelancers
 
 - **Focus on high-income skills:** SEO, Web Dev, etc.
 - **Use platforms wisely:** Fiverr for beginners, Upwork for scaling
@@ -112,7 +112,7 @@ This project addresses these real-world challenges using a relational SQL databa
 ---
 
 
-## 🧠 Skills Demonstrated
+##  Skills Demonstrated
 
 - ✅ Advanced SQL (Joins, Aggregations, CTEs, Window Functions)
 - ✅ Schema Design & Database Normalization
@@ -121,7 +121,7 @@ This project addresses these real-world challenges using a relational SQL databa
 - ✅ Business KPI Development
 - ✅ Stakeholder-Ready Project Documentation
 
-## 🛠️ Challenges Faced
+##  Challenges Faced
 
 - Designing a normalized schema with realistic entity relationships
 - Creating meaningful KPIs from raw and fragmented data
@@ -131,7 +131,7 @@ This project addresses these real-world challenges using a relational SQL databa
 
 ---
 
-## 🔮 What I Learned
+##  What I Learned
 
 - How to **translate business problems** into efficient SQL logic
 - Best practices in **relational data modeling** and schema design
@@ -140,25 +140,25 @@ This project addresses these real-world challenges using a relational SQL databa
 - Thinking like an **analyst**, not just a coder
 
 
-## 🚀 Next Steps
+##  Next Steps
 
-- 📊 Build a **Power BI Dashboard** on top of this SQL project  
-- 🔁 **Automate data refresh** using SQL Server Agent or Python  
-- 🌍 Use **real freelancing data** via API/web scraping  
-- 📦 Build a full **BI pipeline** (ETL → SQL DB → Dashboard → Reports)
+-  Build a **Power BI Dashboard** on top of this SQL project  
+-  **Automate data refresh** using SQL Server Agent or Python  
+-  Use **real freelancing data** via API/web scraping  
+-  Build a full **BI pipeline** (ETL → SQL DB → Dashboard → Reports)
 
 
-## 🙌 About Me
+##  About Me
 
-**👨‍💻 Khurram Naveed**  
+** Khurram Naveed**  
 *Aspiring Data Analyst | SQL Developer | Power BI Enthusiast*
 
-- 🌐 [LinkedIn](https://www.linkedin.com/in/khurram-naveed-0083851aa/)
-- 💻 [https://github.com/Khurramnaveed3233/Portfolio)
+-  [LinkedIn](https://www.linkedin.com/in/khurram-naveed-0083851aa/)
+-  [https://github.com/Khurramnaveed3233/Portfolio)
 
 ---
 
-> ⭐ If this project inspired or helped you, give it a **star** on GitHub or share your feedback.  
+>  If this project inspired or helped you, give it a **star** on GitHub or share your feedback.  
 > Let’s grow the **freelance economy** with data-powered decisions!
 
 
