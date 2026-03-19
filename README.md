@@ -226,10 +226,5 @@ GROUP BY income_quintile;
  *If this project helped or inspired you, give it a star on GitHub. Let's grow the freelance economy with data-powered decisions.*
 
 
----
-
->  If this project inspired or helped you, give it a **star** on GitHub or share your feedback.  
-> Let’s grow the **freelance economy** with data-powered decisions!
-
 
 
