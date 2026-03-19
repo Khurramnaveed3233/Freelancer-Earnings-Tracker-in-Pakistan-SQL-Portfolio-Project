@@ -39,6 +39,8 @@ Freelancers in Pakistan lack structured tools to track and optimize their perfor
 
 > Full **ER Diagram** included showing all 8 table relationships and foreign key constraints.
 
+<img width="835" height="612" alt="Freelancer Earnings Tracker in Pakistan_Schema" src="https://github.com/user-attachments/assets/294c89a9-995b-40b0-ab62-be8b00d59e02" />
+
 ---
 
 ##  Key KPIs
@@ -53,10 +55,7 @@ Freelancers in Pakistan lack structured tools to track and optimize their perfor
 | Peak Income Periods | Q1 and Q4 show consistent income spikes |
 | Multi-Skill Premium | Freelancers with more skills consistently earn more |
 
-
 ---
-
-<img width="835" height="612" alt="Freelancer Earnings Tracker in Pakistan_Schema" src="https://github.com/user-attachments/assets/294c89a9-995b-40b0-ab62-be8b00d59e02" />
 
 ##  Business Questions Solved with SQL
 
