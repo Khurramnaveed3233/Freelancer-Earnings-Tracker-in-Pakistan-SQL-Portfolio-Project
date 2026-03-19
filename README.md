@@ -2,6 +2,58 @@
 
 ![cover](https://github.com/user-attachments/assets/18f302d1-402d-4614-a5cf-a52a25d5ab6f)
 
+> **Role:** Data Analyst | **Tools:** SQL Server · Excel · Power BI | **Domain:** Freelance Economy · Platform Analytics
+
+---
+
+##  Project Overview
+
+Built a **robust SQL-based data model** to track earnings, skills, reviews, and client interactions of Pakistani freelancers across platforms like **Upwork, Fiverr, and Freelancer.com**. The project uncovers key income trends, platform performance differences, and skill-based earning patterns — delivering actionable insights to help freelancers **grow their income and optimize their performance** using data-driven decisions.
+
+---
+
+##  Business Problem
+
+Freelancers in Pakistan lack structured tools to track and optimize their performance. Key challenges include:
+
+- No visibility into which **platforms and skills earn the most**
+- No way to track **monthly income trends** over time
+- Poor **client relationship management** and feedback response tracking
+- Inability to make **data-driven decisions** about skill investment and platform focus
+- No benchmark to compare performance against **top-earning freelancers**
+
+---
+
+## 🗄️ Database Schema — 8 Normalized Tables
+
+| Table | Description |
+|---|---|
+| `freelancers` | Basic profile info — name, experience, location |
+| `projects` | Work details, earnings per project, client ratings |
+| `reviews` | Client feedback, review scores, and response times |
+| `skills` | Freelancer technical skills and proficiency levels |
+| `earnings_summary` | Monthly earnings aggregation and hours worked |
+| `platforms` | Platform profiles — fee percentages and positioning |
+| `category` | Service category types and market popularity |
+| `clients` | Client country and industry details |
+
+> Full **ER Diagram** included showing all 8 table relationships and foreign key constraints.
+
+---
+
+##  Key KPIs
+
+| Metric | Finding |
+|---|---|
+| Revenue Concentration | Top 20% of freelancers generate 60%+ of total revenue |
+| Highest Paying Skills | SEO, Digital Marketing, Web Development |
+| Best Platform for Rates | Upwork — highest average hourly rates |
+| Best Platform for Beginners | Fiverr — easier entry, faster first projects |
+| Response Time Impact | Faster response = higher client ratings |
+| Peak Income Periods | Q1 and Q4 show consistent income spikes |
+| Multi-Skill Premium | Freelancers with more skills consistently earn more |
+
+
 ---
 
 <img width="835" height="612" alt="Freelancer Earnings Tracker in Pakistan_Schema" src="https://github.com/user-attachments/assets/294c89a9-995b-40b0-ab62-be8b00d59e02" />
@@ -43,59 +95,6 @@
 
 ![10](https://github.com/user-attachments/assets/51b97074-f0c4-43a8-bf7e-77bb30c7b669)
 
-# 💼 Pakistan Freelancer Analytics – SQL Data Intelligence Project
-
-> **Role:** Data Analyst | **Tools:** SQL Server · Excel · Power BI | **Domain:** Freelance Economy · Platform Analytics
-
----
-
-## 📌 Project Overview
-
-Built a **robust SQL-based data model** to track earnings, skills, reviews, and client interactions of Pakistani freelancers across platforms like **Upwork, Fiverr, and Freelancer.com**. The project uncovers key income trends, platform performance differences, and skill-based earning patterns — delivering actionable insights to help freelancers **grow their income and optimize their performance** using data-driven decisions.
-
----
-
-## 🎯 Business Problem
-
-Freelancers in Pakistan lack structured tools to track and optimize their performance. Key challenges include:
-
-- No visibility into which **platforms and skills earn the most**
-- No way to track **monthly income trends** over time
-- Poor **client relationship management** and feedback response tracking
-- Inability to make **data-driven decisions** about skill investment and platform focus
-- No benchmark to compare performance against **top-earning freelancers**
-
----
-
-## 🗄️ Database Schema — 8 Normalized Tables
-
-| Table | Description |
-|---|---|
-| `freelancers` | Basic profile info — name, experience, location |
-| `projects` | Work details, earnings per project, client ratings |
-| `reviews` | Client feedback, review scores, and response times |
-| `skills` | Freelancer technical skills and proficiency levels |
-| `earnings_summary` | Monthly earnings aggregation and hours worked |
-| `platforms` | Platform profiles — fee percentages and positioning |
-| `category` | Service category types and market popularity |
-| `clients` | Client country and industry details |
-
-> 📊 Full **ER Diagram** included showing all 8 table relationships and foreign key constraints.
-
----
-
-## 📊 Key KPIs
-
-| Metric | Finding |
-|---|---|
-| Revenue Concentration | Top 20% of freelancers generate 60%+ of total revenue |
-| Highest Paying Skills | SEO, Digital Marketing, Web Development |
-| Best Platform for Rates | Upwork — highest average hourly rates |
-| Best Platform for Beginners | Fiverr — easier entry, faster first projects |
-| Response Time Impact | Faster response = higher client ratings |
-| Peak Income Periods | Q1 and Q4 show consistent income spikes |
-| Multi-Skill Premium | Freelancers with more skills consistently earn more |
-
 ---
 
 ## 🔍 Key Findings
@@ -122,7 +121,7 @@ Freelancers in Pakistan lack structured tools to track and optimize their perfor
 
 ---
 
-## 💡 Recommendations for Freelancers
+##  Recommendations for Freelancers
 
 | Area | Recommendation |
 |---|---|
@@ -136,7 +135,7 @@ Freelancers in Pakistan lack structured tools to track and optimize their perfor
 
 ---
 
-## 🛠️ Technical Approach
+##  Technical Approach
 
 ### SQL Server
 - **Schema Design** — 8 normalized tables with proper foreign key relationships and referential integrity
@@ -166,7 +165,7 @@ GROUP BY income_quintile;
 
 ---
 
-## ⚙️ Challenges Faced & Solutions
+##  Challenges Faced & Solutions
 
 | Challenge | Solution |
 |---|---|
@@ -178,7 +177,7 @@ GROUP BY income_quintile;
 
 ---
 
-## 🚀 Future Enhancements
+##  Future Enhancements
 
 - [ ] Build a **Power BI Dashboard** on top of this SQL project
 - [ ] Automate data refresh using **SQL Server Agent or Python**
@@ -188,9 +187,9 @@ GROUP BY income_quintile;
 
 ---
 
-## 📁 Repository Structure
+##  Repository Structure
 ```
-📂 Pakistan-Freelancer-Analytics-SQL
+ Pakistan-Freelancer-Analytics-SQL
 ├── 📄 FreelancerAnalytics.sql         — Full SQL scripts (schema + queries)
 ├── 🖼️  ER_Diagram.png                  — Entity Relationship Diagram
 ├── 📄 Insights_Report.pdf             — Business insights and recommendations
@@ -199,7 +198,7 @@ GROUP BY income_quintile;
 
 ---
 
-## 🧠 Skills Demonstrated
+##  Skills Demonstrated
 
 | Category | Skills |
 |---|---|
@@ -221,11 +220,11 @@ GROUP BY income_quintile;
 
 ---
 
-> 💼 *This project demonstrates how a well-designed SQL data model can transform fragmented freelancing data into strategic intelligence — proving that data-driven decision making is not just for corporations, but for every freelancer serious about growing their income.*
+>  *This project demonstrates how a well-designed SQL data model can transform fragmented freelancing data into strategic intelligence — proving that data-driven decision making is not just for corporations, but for every freelancer serious about growing their income.*
 
 ---
 
-⭐ *If this project helped or inspired you, give it a star on GitHub. Let's grow the freelance economy with data-powered decisions.*
+ *If this project helped or inspired you, give it a star on GitHub. Let's grow the freelance economy with data-powered decisions.*
 
 
 ---
